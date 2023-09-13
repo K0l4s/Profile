@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    display: fixed;
+    background: #01ccff;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.nav button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    color:black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.nav button:hover{
+    background: #fff;
+    color: #000;
+}
